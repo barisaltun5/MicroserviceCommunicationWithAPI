@@ -28,7 +28,4 @@ Two microservices communicating over APIs..
 
 - Scenario should be expanded
 
-# Screenshot  🖥
-
-
 
