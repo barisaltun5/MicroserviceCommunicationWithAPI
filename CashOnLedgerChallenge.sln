@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashOnLedgerAPI", "CashOnLe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMicroserviceTest", "OrderMicroserviceTest\OrderMicroserviceTest.csproj", "{095066F2-6CA9-4BA1-9E77-105B1DFE555C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMicroserviceTest", "PaymentMicroserviceTest\PaymentMicroserviceTest.csproj", "{C7AC1ED0-C893-4BA1-9D47-FA91DCE5AF52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{095066F2-6CA9-4BA1-9E77-105B1DFE555C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{095066F2-6CA9-4BA1-9E77-105B1DFE555C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{095066F2-6CA9-4BA1-9E77-105B1DFE555C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AC1ED0-C893-4BA1-9D47-FA91DCE5AF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AC1ED0-C893-4BA1-9D47-FA91DCE5AF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AC1ED0-C893-4BA1-9D47-FA91DCE5AF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AC1ED0-C893-4BA1-9D47-FA91DCE5AF52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

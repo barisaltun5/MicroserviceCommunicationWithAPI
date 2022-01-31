@@ -12,7 +12,7 @@ using Xunit;
 
 namespace OrderMicroserviceTest
 {
-    public class UnitTest1
+    public class OrderControllerTest
     {
         [Fact]
         public void CreateOrder_WhenOK_NotException()

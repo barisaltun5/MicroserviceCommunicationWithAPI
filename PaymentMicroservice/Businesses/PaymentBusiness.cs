@@ -12,6 +12,10 @@ namespace PaymentMicroservice.Businesses
         {
             _paymentRepository = paymentRepository;
         }
+        public PaymentBusiness()
+        {
+            //for moq 
+        }
         public BaseResponseModel CreatePayment(Order order)
         {
             try
