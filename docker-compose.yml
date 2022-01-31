@@ -8,7 +8,7 @@ services:
       dockerfile: OrderMicroservice/Dockerfile
     environment:
      - ASPNETCORE_ENVIRONMENT=Development
-     - DB_CONNECTION_STRING=Server=172.34.10.54,1432;Database=OrderDB;User Id=sa;Password=Barisaltun508*;Trusted_Connection=False;MultipleActiveResultSets=true
+     - DB_CONNECTION_STRING=Server=192.168.1.29,1432;Database=OrderDB;User Id=sa;Password=Barisaltun508*;Trusted_Connection=False;MultipleActiveResultSets=true
      - API_URL=http://host.docker.internal:44389
      - API_TOKEN="f32g1f3gh21g3f1h"
     ports:
@@ -24,7 +24,7 @@ services:
       dockerfile: PaymentMicroservice/Dockerfile
     environment:
      - ASPNETCORE_ENVIRONMENT=Development
-     - DB_CONNECTION_STRING=Server=172.34.10.54,1432;Database=PaymentDB;User Id=sa;Password=Barisaltun508*;Trusted_Connection=False;MultipleActiveResultSets=true
+     - DB_CONNECTION_STRING=Server=192.168.1.29,1432;Database=PaymentDB;User Id=sa;Password=Barisaltun508*;Trusted_Connection=False;MultipleActiveResultSets=true
      - API_TOKEN="f32g1f3gh21g3f1h"
     ports:
       - "44489:80"
