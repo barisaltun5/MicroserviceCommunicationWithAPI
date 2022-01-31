@@ -6,7 +6,7 @@
     <ProjectGuid>635276e6-bfed-408c-b922-1def18de8993</ProjectGuid>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
-    <DockerServiceName>cashonledgerapi</DockerServiceName>
+    <DockerServiceName>ordermicroservice</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

@@ -1,4 +1,5 @@
-﻿using CashOnLedgerAPI.Models.RequestModels;
+﻿using CashOnLedgerAPI.Attributes;
+using CashOnLedgerAPI.Models.RequestModels;
 using CashOnLedgerAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -16,6 +17,7 @@ namespace CashOnLedgerAPI.Controllers
         {
             _homeService = homeService;
         }
+        [ApiKeyCheck]
         [HttpPost("orderstatus")]
         public IActionResult CheckStatus([FromBody] OrderRequestModel model)
         {

@@ -21,7 +21,7 @@ namespace CashOnLedgerAPI.Services
             API_TOKEN = Environment.GetEnvironmentVariable("API_TOKEN");
 
             Client = new RestClient(BASE_URL);
-            Client.AddDefaultHeader("x-app-token", API_TOKEN);
+            Client.AddDefaultHeader("API_TOKEN", API_TOKEN);
         }
         public BaseService(string baseUrl, string appToken)
         {
@@ -29,7 +29,7 @@ namespace CashOnLedgerAPI.Services
             API_TOKEN = appToken;
 
             Client = new RestClient(BASE_URL);
-            Client.AddDefaultHeader("x-app-token", API_TOKEN);
+            Client.AddDefaultHeader("API_TOKEN", API_TOKEN);
         }
         protected RestRequest Request(Method method, string action, object model = null, object formModel = null)
         {
