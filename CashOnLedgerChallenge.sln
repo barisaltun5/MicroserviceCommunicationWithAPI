@@ -9,7 +9,9 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMicroservice", "PaymentMicroservice\PaymentMicroservice.csproj", "{4E5E718F-7826-495B-84CB-384B00E6F0FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashOnLedgerAPI", "CashOnLedgerAPI\CashOnLedgerAPI.csproj", "{CD634B83-F4D6-4C58-83ED-C8D70386C896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashOnLedgerAPI", "CashOnLedgerAPI\CashOnLedgerAPI.csproj", "{CD634B83-F4D6-4C58-83ED-C8D70386C896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMicroserviceTest", "OrderMicroserviceTest\OrderMicroserviceTest.csproj", "{095066F2-6CA9-4BA1-9E77-105B1DFE555C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CD634B83-F4D6-4C58-83ED-C8D70386C896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD634B83-F4D6-4C58-83ED-C8D70386C896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD634B83-F4D6-4C58-83ED-C8D70386C896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095066F2-6CA9-4BA1-9E77-105B1DFE555C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095066F2-6CA9-4BA1-9E77-105B1DFE555C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095066F2-6CA9-4BA1-9E77-105B1DFE555C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095066F2-6CA9-4BA1-9E77-105B1DFE555C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

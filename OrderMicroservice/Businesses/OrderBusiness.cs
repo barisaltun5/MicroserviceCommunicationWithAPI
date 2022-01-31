@@ -22,6 +22,10 @@ namespace OrderMicroservice.Businesses
             _orderRepository = orderRepository;
             _apiCaller = orderAPICaller;
         }
+        public OrderBusiness()
+        {
+
+        }
         public BaseResponseModel CreateOrder(OrderRequestModel order)
         {
             try
@@ -46,19 +50,6 @@ namespace OrderMicroservice.Businesses
                 return ResponseCatch();
             }
 
-        }
-        public BaseResponseModel UpdateOrder(Payment orderRequestModel)
-        {
-            try
-            {
-                var result = _orderRepository.UpdateOrder(orderRequestModel);
-                return ResponseIsSuccess(result);
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, ex.Message + " " + ex.InnerException);
-                return ResponseIsFailed("Error", null, null);
-            }
         }
     }
 }

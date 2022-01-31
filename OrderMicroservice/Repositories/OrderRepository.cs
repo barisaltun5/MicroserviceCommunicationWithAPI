@@ -24,6 +24,10 @@ namespace OrderMicroservice.Repositories
             _mapper = mapper;
             _logger = logger;
         }
+        public OrderRepository()
+        {
+
+        }
         public OrderResponseModel InsertOrder(OrderRequestModel model)
         {
             try
