@@ -5,7 +5,6 @@ Two microservices communicating over APIs..
 
 # Why 😏
 
-- Challanging about CashOnLedger
 - To challange myself
 - To have a better carrier opportunities
 
